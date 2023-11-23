@@ -1,6 +1,13 @@
+import { Link } from 'react-router-dom'
+
+// Logo
+import brandImage from '../images/logo.png'
 
 export default function Home(){
   return (
-   <h1>Home</h1>
+   <section className='center'>
+    <img className='brandlogo ' src={brandImage} alt='logo' />
+    <Link to='/allproduct' className='btn'>View Products</Link>
+   </section>
   )
 }

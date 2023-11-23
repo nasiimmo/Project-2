@@ -9,7 +9,7 @@ function App() {
     <>
       <Nav />
       <main>
-      <Outlet />
+        <Outlet />
       </main>
       <Footer />
     </>
