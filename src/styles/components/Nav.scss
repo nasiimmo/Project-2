@@ -1,0 +1,26 @@
+
+
+
+.logo {
+  width: 60px;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  span {
+    height: 3px;
+    display: block;
+    width: 40px;
+    background-color: black;
+    margin-bottom: 3px;
+  }
+}
+
+  // nav {
+  //   @include flex-center(column);
+  //   a {
+  //     color: $light;
+  //     text-decoration: none;
+  //   }
+  // }

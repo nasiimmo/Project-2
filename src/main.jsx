@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+
 // Styles
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/main.scss'
@@ -32,9 +33,9 @@ const router = createBrowserRouter([
         loader: getAllProduct
       },
       {
-        path: '/products/:productId',
+        path: '/products/:Id',
         element: <SingleProduct />,
-        loader: async ({ params }) => getSingleProduct(params.productId)
+        loader: async ({ params }) => getSingleProduct(params.Id)
 
       }
     ]
