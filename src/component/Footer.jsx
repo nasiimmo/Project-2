@@ -1,6 +1,6 @@
 export default function Footer(){
   return (
-    <footer className='text-center'>
+    <footer id="footer">
         &copy; Global Goods {new Date().getFullYear()}
       </footer>
   )

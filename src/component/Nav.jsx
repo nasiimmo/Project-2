@@ -14,7 +14,7 @@ export default function Nav() {
 
   return (
     <>
-      <header className='p-2 p-md-3 p-lg-4'>
+      <header className='header'>
         <Link to='/'><img className='logo' src={logoIcon} alt='brand logo'/></Link>
         
           {/* <Link to='/'>Home</Link>&nbsp;

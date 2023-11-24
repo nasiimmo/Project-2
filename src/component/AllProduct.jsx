@@ -10,16 +10,16 @@ export default function AllProduct() {
   return (
     <>
       <h1 className='text-center bold display-3 mb-4'>Product List</h1>
-      <div className='container'>
+      <div id='container'>
         {products.map(products => {
           const { id, title, price, image } = products
           return (
             <div key={id}>
-              {title} <br />
+             <h3>{title}</h3> <br />
               <Link to={`/products/${id}`}>
                 <img src={image} /> <br />
               </Link>
-              {price}
+             <h4>£{price}</h4>
             </div>
           )
         })}
