@@ -2,8 +2,8 @@ import { useLoaderData } from 'react-router-dom'
 
 export default function SingleProduct() {
   const item = useLoaderData()
-  console.log(item)
-  const {id, title, price, description, image} = item
+  // console.log(item)
+  const {id, title, price, description, image, rating} = item
   
   return (
     <>
@@ -12,7 +12,8 @@ export default function SingleProduct() {
           {title} <br/> 
           <img src={image}/> <br/> 
           {description} <br/> 
-          {price}
+          {price}  <br />
+          {rating[0]} 
           </div>
       </>
   )

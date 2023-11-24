@@ -12,15 +12,13 @@ export default function AllProduct() {
       <h1 className='text-center bold display-3 mb-4'>Product List</h1>
       <div className='container'>
         {products.map(products => {
-          const { id, title, price, description, image, rating } = products
+          const { id, title, price, image } = products
           return (
             <div key={id}>
               {title} <br />
               <Link to={`/products/${id}`}>
                 <img src={image} /> <br />
               </Link>
-              {description} <br />
-              {rating[0]} <br />
               {price}
             </div>
           )
