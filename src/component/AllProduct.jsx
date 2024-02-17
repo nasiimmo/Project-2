@@ -5,26 +5,25 @@ export default function AllProduct() {
 
 
   const products = useLoaderData()
- 
+
   // console.log(products)
   return (
     <>
-      <h1 className='text-center bold display-3 mb-4'>Product List</h1>
+      <h1 className='text-center Product'>Prime Selection</h1>
       <div id='container'>
         {products.map(products => {
           const { id, title, price, image } = products
           return (
             <div key={id}>
-             <h3>{title}</h3> <br />
+            <h3>{title}</h3> <br />
               <Link to={`/products/${id}`}>
-                <img src={image} /> <br />
+                <img src={image} className='image'/> <br />
               </Link>
-             <h4>£{price}</h4>
+            <h4 className='price'>£{price}</h4>
             </div>
           )
         })}
         </div>
-
       </>
       )
 }

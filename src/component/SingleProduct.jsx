@@ -7,13 +7,13 @@ export default function SingleProduct() {
   
   return (
     <>
-    <h1 className='text-center bold display-3 mb-4'>Single Product</h1>
+    <h1 className='Highlighted'>Highlighted Item</h1>
     <div id='single-container'>
     <div key={id}>
-         <h2>{title}</h2> <br/> 
+          <h2>{title}</h2> <br/> 
           <img src={image}/> <br/> 
-           <p>{description}</p> <br/> 
-         <h4>£{price}</h4>  <br />
+          <p className='description'>{description}</p> <br/> 
+          <h4>£{price}</h4>  <br />
           {rating[0]} 
           </div>
           </div>

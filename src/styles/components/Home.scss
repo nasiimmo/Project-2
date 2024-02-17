@@ -2,12 +2,60 @@
   display: flex;
   justify-content: center;
 }
-#footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 200px;
-}
+
 a {
   text-decoration: none;
   color: darkslategrey;
 }
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+  align-items: center;
+}
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.github-link,
+.linkedIn-link {
+  margin-left: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.github-link:hover,
+.linkedIn-link:hover {
+  transform: translateY(-5px); /* Move link upward on hover */
+}
+
+.main-page {
+  font-size: 25px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #f7dede;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+

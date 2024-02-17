@@ -1,29 +1,37 @@
 .header {
-   display: flex;
-   justify-content: space-between;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
 }
 
 .logo {
-  width: 60px;
+  padding: 10px;
+  transition: transform 0.3s ease;
 }
 
-.nav-toggle {
-  background: none;
-  border: none;
-  span {
-    height: 3px;
-    display: block;
-    width: 40px;
-    background-color: black;
-    margin-bottom: 3px;
-  }
+.logo:hover {
+  transform: translateY(-5px);
+}
+.welcome {
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 20px;
+  margin-left: 130px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  padding: 20px 50px 0px 0px;
 }
 
-  // nav {
-  //   @include flex-center(column);
-  //   a {
-  //     color: $light;
-  //     text-decoration: none;
-  //   }
-  // }
+.nav-item:hover .nav-link {
+  transform: translateY(-5px);
+}
+

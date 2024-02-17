@@ -1,7 +1,16 @@
+import LinkedIn from '../images/icons8-linkedin-50.png'
+import Github from '../images/Footer_github-new.png'
+
+
+
 export default function Footer(){
   return (
     <footer id="footer">
-        &copy; Global Goods {new Date().getFullYear()}
+        Made by Nasiim & Husaam &copy; Global Goods {new Date().getFullYear()}
+        <div className='socials'>
+        <a href='https://github.com/nasiimmo' className="github-link"><img src={Github} /> </a>
+        <a href='https://www.linkedin.com/feed/' className="linkedIn-link"><img src={LinkedIn} /> </a>
+        </div>
       </footer>
   )
 } 

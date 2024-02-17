@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main>
+      <main className='main'>
         <Outlet />
       </main>
       <Footer />
