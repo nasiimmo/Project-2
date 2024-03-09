@@ -34,7 +34,7 @@ We decided to search for an API that provides comprehensive product information.
 
 #### Wireframes
 
-[Global-Goods](http://localhost:5174/)
+[Global-Goods](https://chic-kheer-0b9d30.netlify.app)
 
 - **Homepage**: Nav bar containing an icon linking back to home and a burger menu with links to other pages. Displays all products, with a button to view individual product details.
 
