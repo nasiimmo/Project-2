@@ -42,7 +42,7 @@ We decided to search for an API that provides comprehensive product information.
 
 <img src='./src/images/wireframe_1.png' width="400"/>
 
-<img src='./images/wireframe_2.png' width="400"/>
+<img src='./src/images/wireframe_2.png' width="400"/>
 
 ### Approach Taken
 
