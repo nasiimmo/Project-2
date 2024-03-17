@@ -45,3 +45,18 @@
   text-align: left;
   padding: 15px;
 }
+@media only screen and (max-width: 600px) {
+  /* Media query for phones */
+  #single-container div {
+    width: 90%; /* Adjusted width for better fit on smaller screens */
+    max-width: 300px; /* Adjusted max-width for better fit on smaller screens */
+  }
+
+  .Highlighted {
+    font-size: 25px; /* Further adjusted font size for better readability on smaller screens */
+  }
+
+  .description {
+    font-size: 16px; /* Further adjusted font size for better readability on smaller screens */
+  }
+}

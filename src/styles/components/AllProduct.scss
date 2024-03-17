@@ -40,3 +40,21 @@ body {
 .price {
   padding-top: 20px;
 }
+@media only screen and (max-width: 600px) {
+  /* Media query for phones */
+  #container div {
+    padding: 10px; /* Further reduced padding for smaller screens */
+  }
+
+  #container h3 {
+    font-size: 14px; /* Further decreased font size for better readability on smaller screens */
+  }
+
+  .Product {
+    font-size: 30px; /* Further decreased font size for better readability on smaller screens */
+  }
+
+  .price {
+    padding-top: 10px; /* Further reduced padding for smaller screens */
+  }
+}
